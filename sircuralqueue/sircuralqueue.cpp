@@ -61,7 +61,7 @@ public:
 	}
 
 	void display() {
-		int front_position = FRONT;
+		int FRONT_position = FRONT;
 		int REAR_position = REAR;
 
 		// cek apakah antrian kosong 
@@ -86,6 +86,6 @@ public:
 		}
 		cout << endl;
 	}
-	
-
 };
+
+int main() 
