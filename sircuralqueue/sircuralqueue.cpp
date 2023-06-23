@@ -113,6 +113,14 @@ int main() {
 				q.remove();
 				break;
 			}
+			case '3' : {
+						q.display();
+				break;
+			}
+			case '4': {
+			return 0;				
+			}
+
 			}
 		}
 	}
