@@ -15,6 +15,9 @@ public:
 		int num;
 		cout << "Enter the number: ";
 		cin >> num;
+		cout << endl;
+
+		// cek apakah antrian penuh
 	}
 
 
