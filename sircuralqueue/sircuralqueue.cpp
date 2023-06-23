@@ -92,4 +92,12 @@ int main() {
 	queues q;
 	char ch;
 
+	while (true) {
+		try {
+			cout << "menu" << endl;
+			cout << "1. implement insert operation" << endl;
+			cout << "2. implement delete operation" << endl;
+
+		}
+	}
 }
