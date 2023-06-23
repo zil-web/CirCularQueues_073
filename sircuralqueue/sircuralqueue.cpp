@@ -120,12 +120,16 @@ int main() {
 			case '4': {
 			return 0;				
 			}
-			default: {
-				cout << "check for the values entered." << endl;
 
+			default: {
+				cout << "invalid option@@" << endl;
+				break;	
 			}
 			}
 		}
-		return 0;
+		catch (exception& e) {
+			cout << "check for the values entered " << endl;
+		}
 	}
+	return 0;
 }
