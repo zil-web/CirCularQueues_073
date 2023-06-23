@@ -88,4 +88,8 @@ public:
 	}
 };
 
-int main() 
+int main() {
+	queues q;
+	char ch;
+
+}
